@@ -69,10 +69,10 @@
 </div>
                                                                    
                                   
-<button id="button1" onclick="button1press()">Aqua</button>
-<button id="button2" onclick="button2press()">Red</button>                                            
-<button id="button3" onclick="button3press()">Green</button>
-<button id="button4" onclick="button4press()">Thunder</button>
+<button id="button1" style="background-color:Aquamarine; border-color:Black; color:Black" onclick="button1press()">Aqua</button>
+<button id="button2" style="background-color:Tomato; border-color:Black; color:Black" onclick="button2press()">Red</button>                                            
+<button id="button3" style="background-color:ForestGreen; border-color:Black; color:Black" onclick="button3press()">Green</button>
+<button id="button4" style="background-image: url('Thunder.jpg'); border-color:Black; color:Black" onclick="button4press()">Thunder</button>
 
 <p id="demo"></p>                          
                            
@@ -91,7 +91,7 @@ function button3press() {
 }
 function button4press() {
   document.getElementById("demo").innerHTML = "Color changed to " + "Thunder";
-  document.body.style.backgroundImage = "ThunderK.jpg";         
+  document.body.style.backgroundImage = "url('ThunderK.jpg')";         
 }
                                                                          
 </script>                           
