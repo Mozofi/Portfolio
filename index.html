@@ -15,8 +15,8 @@ body {
 </style>
 <script src=""></script>
 
-<!--body style="background-color:Aquamarine;"-->
-<body style="background-color:Tomato;">
+<body id="BGColor" style="background-color:Aquamarine;">
+<!--body style="background-color:Tomato;"-->
 <!--body style="background-color:ForestGreen;"-->
 
 <center>
@@ -69,16 +69,31 @@ body {
 </div>
                                                                    
                                   
-<button type="button">Click Me!</button>                                                               
-<button id="button1" onclick="button1press()">Color</button>
+<button id="button1" onclick="button1press()">Aqua</button>
+<button id="button2" onclick="button2press()">Red</button>                                            
+<button id="button3" onclick="button3press()">Green</button>
+<button id="button4" onclick="button4press()">Thunder</button>
 
 <p id="demo"></p>                          
                            
 <script>
 function button1press() {
-  document.getElementById("demo").innerHTML = "color change";
-  document.getElementbyId("button1").color = "Tomato";                                                          
+  document.getElementById("demo").innerHTML = "Color changed to " + "Aqua";
+  document.getElementById("BGColor").innerHTML = "background-color:Aquamarine;";                                                                       
 }
+function button2press() {
+  document.getElementById("demo").innerHTML = "Color changed to " + "Red";
+  document.getElementById("BGColor").innerHTML = "background-color:Red;";                                                                             
+}
+function button3press() {
+  document.getElementById("demo").innerHTML = "Color changed to " + "Green";
+  document.getElementById("BGColor").innerHTML = "background-color:Green;";                                                                               
+}
+function button4press() {
+  document.getElementById("demo").innerHTML = "Color changed to " + "Thunder";
+  document.getElementById("BGColor").innerHTML = "background-color:Thunder;";                                                                                 
+}
+                                                                         
 </script>                           
                                                                    
 <p>to</p>                                                            
