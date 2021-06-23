@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-<div id="BGImage" style="background-image: url('ThunderK.jpg');">
+<div style="background-image: url('ThunderK.jpg');">
 /*body {
   background-image: url('ThunderK.jpg');
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 </style>
 <script src=""></script>
 
-<body id="BGColor" style="background-color:Aquamarine;">
+<body style="background-color:Aquamarine;">
 <!--body style="background-color:Tomato;"-->
 <!--body style="background-color:ForestGreen;"-->
 
@@ -79,19 +79,19 @@
 <script>
 function button1press() {
   document.getElementById("demo").innerHTML = "Color changed to " + "Aqua";
-  document.getElementById("BGColor").innerHTML = "background-color:Aquamarine;";                                                                       
+  document.body.style.backgroundColor = "Aquamarine";
 }
 function button2press() {
   document.getElementById("demo").innerHTML = "Color changed to " + "Red";
-  document.getElementById("BGColor").innerHTML = "background-color:Red;";                                                                             
+  document.body.style.backgroundColor = "Tomato";               
 }
 function button3press() {
   document.getElementById("demo").innerHTML = "Color changed to " + "Green";
-  document.getElementById("BGColor").innerHTML = "background-color:Green;";                                                                               
+  document.body.style.backgroundColor = "ForestGreen";      
 }
 function button4press() {
   document.getElementById("demo").innerHTML = "Color changed to " + "Thunder";
-  document.getElementById("BGImage").innerHTML = "background-image: url('ThunderK.jpg');";                                                                                 
+  document.body.style.backgroundImage = "ThunderK.jpg";         
 }
                                                                          
 </script>                           
