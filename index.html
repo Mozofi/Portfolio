@@ -44,8 +44,7 @@
   </tr>
 </table>
   
-                                                                   
-<p>Div 2</p>                                                              
+<p>Side by side</p>                                                                                                                  
    
     <div class="row">
   <div class="column">
@@ -66,20 +65,18 @@
   <img src="ChameleonN.jpg" alt="Chameleon" style="width="500" height="500">
   <img src="ClownJ.jpg" alt="Clown" style="width="500" height="500">
       
-
-</div>
                                                                    
-                                  
-<button id="button1" style="background-color:Blue; border-color:Black; color:Black" onclick="button1press()">Aqua</button>
+<br>                                
+<button id="button1" style="background-color:Cyan; border-color:Black; color:Black" onclick="button1press()">Aqua</button>
 <button id="button2" style="background-color:Red; border-color:Black; color:Black" onclick="button2press()">Red</button>                                            
-<button id="button3" style="background-color:Green; border-color:Black; color:Black" onclick="button3press()">Green</button>
+<button id="button3" style="background-color:DarkGreen; border-color:Black; color:Black" onclick="button3press()">Green</button>
 <button id="button4" style="background-image: url('Thunder.jpg'); border-color:Black; color:Black" onclick="button4press()">Thunder</button>
 
 <p id="demo"></p>                          
                            
 <script>
 function button1press() {
-  document.getElementById("demo").innerHTML = "Color changed to " + "Aqua";
+  document.getElementById("demo").innerHTML = "Color changed to " + "Cyan";
   document.body.style.backgroundColor = "Aquamarine";
   document.body.style.backgroundImage = null;
 }
@@ -94,7 +91,7 @@ function button3press() {
   document.body.style.backgroundImage = null;
 }
 function button4press() {
-  document.getElementById("demo").innerHTML = "Color changed to " + "Thunder";
+  document.getElementById("demo").innerHTML = "Image changed to " + "Thunder";
   document.body.style.backgroundImage = "url('ThunderK.jpg')";
 }
                                                                          
