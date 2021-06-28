@@ -1,13 +1,7 @@
----
-title: Examples
-layout: template
-filename: Examples.md
---- 
-
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<b><title>Mozofi's Portfolio website</title>
+<b><title>Mozofi's Examples Page</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   
@@ -18,22 +12,33 @@ filename: Examples.md
     background-attachment: fixed;
     background-size: cover;
   }
+  aside {
+  width: 6%;
+  padding-left: 1%;
+  margin-left: 2%;
+  float: left;
+  font-style: italic;
+  background-color: Orange;
+}
+
 </style>
   
 <script src=""></script>
   
 <body style="background-color:null;">
-  <center><b>
-    <h1>My Portfolio 2</h1>
-      <p><em>These are some example images.</em></p>
-      </b>
-    
-    <!-- Side navigation -->
-<div class="sidenav">
+  
+      <aside>
+      <p>"SideBar"</p>
   <a href="Mozofi.github.io/Portfolio.html">Home</a><br>
   <a href="Mozofi.github.io/Portfolio/Examples.html">Example Apps</a><br>
   <a href="Mozofi.github.io/Portfolio/Contact.html">Contact</a><br>
-</div>
+    </aside>
+  
+  <center><b>
+    <h1>My Portfolio</h1>
+      <p><em>These are some example images.</em></p>
+      </b>
+    
     
     <p>Table table</p>  
   
@@ -44,9 +49,9 @@ filename: Examples.md
     <th>Lil Clown</th>
   </tr>
   <tr>
-    <td>  <img src="LightningK.jpg" alt="Lightning" style="width="500" height="500">  </td>
-    <td>  <img src="ChameleonN.jpg" alt="Chameleon" style="width="500" height="500"> </td>
-    <td>  <img src="ClownJ.jpg" alt="Clown" style="width="500" height="500">  </td>
+    <td>  <img src="LightningK.jpg" alt="Lightning" style="width:500" height="500">  </td>
+    <td>  <img src="ChameleonN.jpg" alt="Chameleon" style="width:500" height="500"> </td>
+    <td>  <img src="ClownJ.jpg" alt="Clown" style="width:500" height="500">  </td>
   </tr>
 </table>                                                                                                                                                       
 
