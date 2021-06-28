@@ -84,7 +84,7 @@ function button4press() {
 }                                                                      
 </script>                                                                                              
 
-<a href="https://mozofi.github.io/Portfolio/"><s>Refresh the page for now!</s></a>
+<a href="https://mozofi.github.io/Portfolio/"><s>Return to github for now!</s></a>
       
 </center>
 </body>
