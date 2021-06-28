@@ -31,8 +31,8 @@ filename: Examples.md
     <!-- Side navigation -->
 <div class="sidenav">
   <a href="Mozofi.github.io/Portfolio">Home<a><br>
-  <a href="Mozofi.github.io/Portfolio/Examples">Example Apps</a><br>
-  <a href="#">Contact</a><br>
+  <a href="Mozofi.github.io/Examples">Example Apps</a><br>
+  <a href="Mozofi.github.io/Contact">Contact</a><br>
 </div>
     
     <p>Table table</p>  
