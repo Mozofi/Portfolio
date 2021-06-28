@@ -30,9 +30,9 @@ filename: Examples.md
     
     <!-- Side navigation -->
 <div class="sidenav">
-  <a href="Mozofi.github.io/Portfolio">Home<a><br>
-  <a href="Mozofi.github.io/Examples">Example Apps</a><br>
-  <a href="Mozofi.github.io/Contact">Contact</a><br>
+  <a href="Mozofi.github.io/Portfolio.html">Home</a><br>
+  <a href="Mozofi.github.io/Portfolio/Examples.html">Example Apps</a><br>
+  <a href="Mozofi.github.io/Portfolio/Contact.html">Contact</a><br>
 </div>
     
     <p>Table table</p>  
