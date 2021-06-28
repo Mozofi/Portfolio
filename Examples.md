@@ -1,10 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<b><title>Mozofi's Portfolio website</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
 <style>
   body {
     background-image: url('ThunderK.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: null;
   }
   aside {
   width: 6%;
@@ -18,6 +24,8 @@
 </style>
   
 <script src=""></script>
+  
+<body style="background-color:null;">
   
       <aside>
       <p>"SideBar"</p>
@@ -78,7 +86,8 @@ function button4press() {
 }                                                                      
 </script>                                                                                              
 
-<a href="https://mozofi.github.io/Portfolio/"><s>Return to github for now!</s></a>
+<a href="https://github.com/Mozofi/Portfolio"><s>Return to github for now!</s></a>
       
 </center>
 </body>
+</html>
