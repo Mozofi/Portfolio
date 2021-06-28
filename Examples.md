@@ -1,7 +1,7 @@
 ---
-title: Page 2
+title: Examples
 layout: template
-filename: NAME OF THIS .md FILE HERE
+filename: Examples.md
 --- 
 
 <!DOCTYPE html>
