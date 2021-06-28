@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <meta charset="UTF-8">
 <b><title>Mozofi's Examples Page</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -90,4 +88,3 @@ function button4press() {
       
 </center>
 </body>
-</html>
