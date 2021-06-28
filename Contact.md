@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<b><title>Mozofi's Contact Page</title>
+<b><title>Mozofi's Portfolio website</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   
@@ -86,9 +86,8 @@ function button4press() {
 }                                                                      
 </script>                                                                                              
 
-<a href="https://mozofi.github.io/Portfolio/"><s>Refresh the page for now!</s></a>
+<a href="https://github.com/Mozofi/Portfolio"><s>Return to github for now!</s></a>
       
 </center>
 </body>
 </html>
-
